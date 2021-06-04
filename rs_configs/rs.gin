@@ -1,0 +1,10 @@
+import backtracking.replay_buffers
+import backtracking.common.encoder 
+
+EfficientReverseSweepReplayBuffer.n_initial_nodes = 8
+EfficientReverseSweepReplayBuffer.graph_searcher_reset_type = 'episode'
+EfficientReverseSweepReplayBuffer.transition_id_sample_ratio = 1.0
+EfficientReverseSweepReplayBuffer.max_predecessor_expand_per_node = 3
+EfficientReverseSweepReplayBuffer.reward_prioritize_temperature = 0.1
+EfficientReverseSweepReplayBuffer.terminal_state_criteria = 'game_over-or-reset'
+EfficientReverseSweepReplayBuffer.sampling_strategy = 'backtrack'

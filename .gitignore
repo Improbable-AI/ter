@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+*.pt
+*.pyc
+*.sw*
+notebooks/plotting/data
+venv
+backtracking.egg-info
+__pycache__
+*git-diff.txt

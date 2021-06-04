@@ -1,0 +1,1 @@
+EfficientReverseSweepReplayBuffer.terminal_state_criteria = 'game_over'

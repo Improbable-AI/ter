@@ -1,0 +1,2 @@
+EfficientReverseSweepReplayBuffer.graph_searcher_reset_type = 'rp-episode'
+EfficientReverseSweepReplayBuffer.reward_prioritize_temperature = 0.1

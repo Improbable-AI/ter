@@ -1,0 +1,15 @@
+net_arch: "large_atari"
+explorer: "linear-decay"
+update_interval: 4
+target_update_interval: 1000
+batch_size: 64
+lr: 3e-4
+steps: 3000000
+noise_eval: 0.01
+eval_n_runs: 100
+eval_interval: 100000
+replay_capacity: 1000000
+replay_start_size: 50000
+final_exploration_steps: 1000000
+start_epsilon: 1.0
+end_epsilon: 0.01
