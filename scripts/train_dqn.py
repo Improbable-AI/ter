@@ -18,7 +18,7 @@ from pfrl import utils
 import numpy as np
 
 import backtracking
-
+import backtracking.agents
 from backtracking.envs.wrappers import wrap_env
 from backtracking.replay_buffers import EfficientReverseSweepReplayBuffer
 

@@ -1,7 +1,7 @@
 ENV="MiniGrid-$1-v0"
 SEED=${2-"0"}
 GPU=${3-"-1"}
-OUTDIR_LABEL="gameover-rs"
+OUTDIR_LABEL="ter"
 EXTRA_ARGS=${@:4}
 
 echo "Env: $ENV"
@@ -12,7 +12,7 @@ echo "GPU: $GPU"
 python scripts/train_dqn.py \
     --gpu $GPU \
     --algo DDQN \
-    --replay RS \
+    --replay TER \
     --outdir results/minigrid/ddqn-${OUTDIR_LABEL}/large_atari/$ENV \
     --env $ENV \
     --monitor \

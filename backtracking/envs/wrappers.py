@@ -5,8 +5,10 @@ import numpy as np
 
 import gym
 from gym.wrappers import TimeLimit
-from gym_minigrid.wrappers import RGBImgObsWrapper, ImgObsWrapper, FullyObsWrapper, FlatObsWrapper
+from gym_minigrid.wrappers import RGBImgObsWrapper, ImgObsWrapper
 
+import pfrl
+import cv2
     
 class EqualScaleMinigridStepPenaltyReward(gym.Wrapper):
     
