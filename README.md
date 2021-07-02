@@ -17,3 +17,7 @@ Available tasks: `SimpleCrossingS9N1` (SimpleCrossing-Easy), `SimpleCrossingS9N2
 - `bash scripts/sokoban/train_ddqn_ebu.sh {Task: e.g., LavaCrossingS9N1} {Random seed: e.g., 0}`
 - `bash scripts/sokoban/train_ddqn_ter.sh {Task: e.g., LavaCrossingS9N1} {Random seed: e.g., 0}`
 - `bash scripts/sokoban/train_ddqn_er_mixin_ter.sh {Task: e.g., LavaCrossingS9N1} {Random seed: e.g., 0}`
+
+# Run in docker
+- `docker build -t ter .`
+- `./dockerun ${COMMAND}` (e.g., `./dockerun bash scripts/minigrid/train_ddqn_uer.sh Empty-5x5`)

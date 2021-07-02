@@ -1,0 +1,5 @@
+docker run -it \
+	--gpus all \
+	--mount type=bind,Source=$(pwd)/,Target=/code,bind-propagation=shared \
+	ter \
+	${@}

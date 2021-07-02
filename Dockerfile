@@ -1,4 +1,5 @@
-FROM ubuntu:18.04
+#FROM ubuntu:18.04
+FROM nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
 SHELL ["/bin/bash", "-c"]
 
 RUN apt-get update && apt-get install -y \
@@ -52,9 +53,14 @@ RUN apt-get update && apt-get install -y \
     libxxf86vm-dev \
     mesa-common-dev
 
+RUN python3.7 -m pip install --upgrade pip
+
 COPY requirement.txt /tmp/
-RUN pip3 install --upgrade pip
-RUN pip3 install -r /tmp/requirement.txt 
+RUN pip3.7 install --upgrade pip
+RUN pip3.7 install -r /tmp/requirement.txt 
 RUN rm /tmp/requirement.txt
+RUN rm /usr/bin/python && ln -s /usr/bin/python3.7 /usr/bin/python
 
 ENV PYTHONPATH /code
+
+WORKDIR /code
