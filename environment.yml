@@ -4,7 +4,6 @@ channels:
 dependencies:
   - ca-certificates=2021.5.25
   - certifi=2021.5.30
-  - libcxx=10.0.0
   - libffi=3.3
   - ncurses=6.2
   - openssl=1.1.1k
@@ -38,3 +37,4 @@ dependencies:
     - torch==1.8.1
     - tqdm==4.61.0
     - urllib3==1.26.5
+    - ruamel.yaml
