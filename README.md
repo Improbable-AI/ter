@@ -2,6 +2,9 @@
 1. `conda env create -f environment.yml`
 2. `pip install -e .`
 
+# Develop with graph memory
+See `examples/graph/hash_graph.py`
+
 # Minigrid
 Available tasks: `Push_5x5_1_120`, `Push_5x5_2_120`, `Push_6x6_1_120`, `Push_6x6_2_120`, `Push_6x6_3_120`, `Push_7x7_1_120`, and `Push_7x7_2_120`
 - `bash scripts/sokoban/train_ddqn_uer.sh {Task: e.g., Push_5x5_1_120} {GPU_ID: e.g., 0} {Random seed: e.g., 0}`
