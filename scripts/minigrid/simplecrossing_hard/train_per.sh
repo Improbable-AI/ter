@@ -1,0 +1,1 @@
+bash scripts/minigrid/train_ddqn_per.sh SimpleCrossingS9N2 $1 $2

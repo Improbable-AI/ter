@@ -1,0 +1,1 @@
+bash scripts/minigrid/train_ddqn_discor_uer.sh Unlock $1 $2

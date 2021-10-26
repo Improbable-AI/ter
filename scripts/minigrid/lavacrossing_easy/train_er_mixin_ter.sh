@@ -1,0 +1,1 @@
+bash scripts/minigrid/train_ddqn_er_mixin_ter.sh LavaCrossingS9N1 $1 $2

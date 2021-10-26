@@ -1,0 +1,1 @@
+bash scripts/minigrid/train_ddqn_ebu.sh Unlock $1 $2
