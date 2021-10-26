@@ -1,1 +1,0 @@
-bash scripts/minigrid/train_ddqn_discor_uer.sh RedBlueDoors-6x6 $1 $2

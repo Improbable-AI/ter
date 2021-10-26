@@ -1,1 +1,0 @@
-bash scripts/minigrid/train_ddqn_discor_uer.sh SimpleCrossingS9N2 $1 $2

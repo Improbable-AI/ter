@@ -1,0 +1,1 @@
+bash scripts/overall_perf/minigrid//train_ddqn_er_mixin_ter.sh RedBlueDoors-6x6 $1 $2

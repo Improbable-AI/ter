@@ -1,0 +1,1 @@
+bash scripts/replay_ratio/sokoban/train_ddqn_er_mixin_ter.sh Push_6x6_2_120 $1 $2 4 5000000

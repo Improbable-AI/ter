@@ -1,1 +1,0 @@
-bash scripts/sokoban/train_ddqn_per.sh Push_6x6_2_120 $1 $2 5000000

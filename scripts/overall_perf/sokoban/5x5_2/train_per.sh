@@ -1,0 +1,1 @@
+bash scripts/overall_perf/sokoban/train_ddqn_per.sh Push_5x5_2_120 $1 $2 1000000

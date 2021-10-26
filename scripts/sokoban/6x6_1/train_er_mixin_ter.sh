@@ -1,1 +1,0 @@
-bash scripts/sokoban/train_ddqn_er_mixin_ter.sh Push_6x6_1_120 $1 $2 1000000

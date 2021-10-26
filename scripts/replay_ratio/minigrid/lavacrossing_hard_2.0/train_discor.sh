@@ -1,0 +1,1 @@
+bash scripts/replay_ratio/minigrid/train_ddqn_discor_uer.sh LavaCrossingS9N2 $1 $2 8

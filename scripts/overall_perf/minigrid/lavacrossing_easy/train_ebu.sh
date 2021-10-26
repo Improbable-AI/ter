@@ -1,0 +1,1 @@
+bash scripts/overall_perf/minigrid//train_ddqn_ebu.sh LavaCrossingS9N1 $1 $2

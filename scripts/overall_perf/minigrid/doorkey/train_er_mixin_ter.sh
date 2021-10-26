@@ -1,0 +1,1 @@
+bash scripts/overall_perf/minigrid//train_ddqn_er_mixin_ter.sh DoorKey-6x6 $1 $2 --config dqn_configs/minigrid_6M.yaml 

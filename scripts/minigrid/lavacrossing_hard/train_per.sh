@@ -1,1 +1,0 @@
-bash scripts/minigrid/train_ddqn_per.sh LavaCrossingS9N2 $1 $2
