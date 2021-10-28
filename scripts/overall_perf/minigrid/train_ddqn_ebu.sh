@@ -12,8 +12,8 @@ python scripts/train_dqn.py \
     --gpu $GPU \
     --algo DDQN \
     --replay EBU \
-    --outdir debug_results/minigrid/ddqn-ebu/large_atari/$ENV \
+    --outdir results/overall_perf/minigrid/ddqn-ebu/large_atari/$ENV \
     --env $ENV \
     --monitor \
-    --config dqn_configs/minigrid_debug.yaml \
+    --config dqn_configs/minigrid.yaml \
     $EXTRA_ARGS

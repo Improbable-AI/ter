@@ -12,7 +12,7 @@ python scripts/train_dqn.py \
     --gpu $GPU \
     --algo DDQN \
     --replay UER \
-    --outdir results/minigrid/ddqn-uer/large_atari/$ENV \
+    --outdir results/overall_perf/minigrid/ddqn-uer/large_atari/$ENV \
     --env $ENV \
     --monitor \
     --config dqn_configs/minigrid.yaml \

@@ -13,7 +13,7 @@ python scripts/train_dqn.py \
     --gpu $GPU \
     --algo DDQN \
     --replay PER \
-    --outdir results/minigrid/ddqn-per/large_atari/$ENV \
+    --outdir results/replay_ratio/ddqn-per/large_atari/$ENV \
     --env $ENV \
     --monitor \
     --config dqn_configs/minigrid.yaml \

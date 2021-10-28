@@ -24,7 +24,7 @@ python scripts/train_dqn.py \
     --algo DDQN \
     --replay TER \
     --explorer linear-decay \
-    --outdir results/sokoban/ddqn-$OUTDIR_LABEL/$NET_ARCH/$ENV \
+    --outdir results/replay_ratio/sokoban/ddqn-$OUTDIR_LABEL/$NET_ARCH/$ENV \
     --env $ENV \
     --steps $STEPS \
     --lr $LR \

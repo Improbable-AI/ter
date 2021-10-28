@@ -38,3 +38,6 @@ dependencies:
     - tqdm==4.61.0
     - urllib3==1.26.5
     - ruamel.yaml
+    - pandas
+    - matplotlib
+    - seaborn
