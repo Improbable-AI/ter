@@ -1,7 +1,7 @@
 ENV="MiniGrid-$1-v0"
 SEED=${2-"0"}
 GPU=${3-"-1"}
-OUTDIR_LABEL="er-mixin-0.5-ter"
+OUTDIR_LABEL="gameover-er-mixin-0.5-maxp-1-rs"
 EXTRA_ARGS=${@:4}
 
 echo "Env: $ENV"

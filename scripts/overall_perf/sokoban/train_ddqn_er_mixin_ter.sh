@@ -1,7 +1,7 @@
 ENV="Sokoban-$1"
 SEED=${2-"0"}
 GPU=${3-"-1"}
-OUTDIR_LABEL="er-mixin-0.1-ter"
+OUTDIR_LABEL="gameover-er-mixin-0.1-rs"
 NET_ARCH="large-atari"
 LR="3e-4"
 TARGET_UPDATE_INTERVAL="10000"
