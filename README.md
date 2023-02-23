@@ -1,3 +1,10 @@
+Official implementation of Topological Experience Replay
+=
+[Paper link](https://openreview.net/forum?id=OXRZeMmOI7a)
+
+Abstract: State-of-the-art deep Q-learning methods update Q-values using state transition tuples sampled from the experience replay buffer. This strategy often randomly samples or prioritizes data sampling based on measures such as the temporal difference (TD) error. Such sampling strategies can be inefficient at learning Q-function since a state's correct Q-value preconditions on the accurate successor states' Q-value. Disregarding such a successor's value dependency leads to useless updates and even learning wrong values.
+To expedite Q-learning, we maintain states' dependency by organizing the agent's experience into a graph. Each edge in the graph represents a transition between two connected states. We perform value backups via a breadth-first search that expands vertices in the graph starting from the set of terminal states successively moving backward. We empirically show that our method is substantially more data-efficient than several baselines on a diverse range of goal-reaching tasks. Notably, the proposed method also outperforms baselines that consume more batches of training experience. 
+
 # Installation
 1. `git clone https://github.com/williamd4112/topological_experience_replay.git`
 2. `cd topological_experience_replay`
